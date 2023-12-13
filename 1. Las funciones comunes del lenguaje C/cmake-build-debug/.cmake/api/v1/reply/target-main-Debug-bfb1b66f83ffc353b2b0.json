@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "1__Las_funciones_comunes_del_lenguaje_C.exe"
+			"path" : "main.exe"
 		},
 		{
-			"path" : "1__Las_funciones_comunes_del_lenguaje_C.pdb"
+			"path" : "main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "1__Las_funciones_comunes_del_lenguaje_C::@6890427a1f51a3e7e1df",
+	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "1__Las_funciones_comunes_del_lenguaje_C",
-	"nameOnDisk" : "1__Las_funciones_comunes_del_lenguaje_C.exe",
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
 		"build" : ".",
