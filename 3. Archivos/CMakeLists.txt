@@ -4,3 +4,4 @@ project(3__Archivos)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(fopen fopen.cpp)
+add_executable(fprintf fprintf.cpp)

@@ -1,3 +1,4 @@
 C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/3. Archivos/cmake-build-debug/CMakeFiles/fopen.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/3. Archivos/cmake-build-debug/CMakeFiles/fprintf.dir
 C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/3. Archivos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/3. Archivos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

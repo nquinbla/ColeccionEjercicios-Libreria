@@ -73,6 +73,39 @@ build fopen.exe: CXX_EXECUTABLE_LINKER__fopen_Debug CMakeFiles/fopen.dir/fopen.c
   TARGET_IMPLIB = libfopen.dll.a
   TARGET_PDB = fopen.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target fprintf
+
+
+#############################################
+# Order-only phony target for fprintf
+
+build cmake_object_order_depends_target_fprintf: phony || CMakeFiles/fprintf.dir
+
+build CMakeFiles/fprintf.dir/fprintf.cpp.obj: CXX_COMPILER__fprintf_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/3.$ Archivos/fprintf.cpp || cmake_object_order_depends_target_fprintf
+  DEP_FILE = CMakeFiles\fprintf.dir\fprintf.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fprintf.dir
+  OBJECT_FILE_DIR = CMakeFiles\fprintf.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fprintf
+
+
+#############################################
+# Link the executable fprintf.exe
+
+build fprintf.exe: CXX_EXECUTABLE_LINKER__fprintf_Debug CMakeFiles/fprintf.dir/fprintf.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fprintf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fprintf.exe
+  TARGET_IMPLIB = libfprintf.dll.a
+  TARGET_PDB = fprintf.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build fopen: phony fopen.exe
 
+build fprintf: phony fprintf.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build fopen: phony fopen.exe
 #############################################
 # Folder: C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/3. Archivos/cmake-build-debug
 
-build all: phony fopen.exe
+build all: phony fopen.exe fprintf.exe
 
 # =============================================================================
 # Built-in targets

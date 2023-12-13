@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "3__Archivos",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "fopen::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-fopen-Debug-e0e79e9501453e4ad7b2.json",
 					"name" : "fopen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fprintf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fprintf-Debug-e951aebd0ac0b8d2aafd.json",
+					"name" : "fprintf",
 					"projectIndex" : 0
 				}
 			]
