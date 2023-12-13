@@ -8,7 +8,10 @@ using namespace std;
 
 int main() {
     char cadena1[] = "La tarta de queso";
-    char cadena2[] = "es la mejor";
+    cout << "La cadena 1 es: " << cadena1 << endl; // "La tarta de queso"
+
+    char cadena2[] = "Es la mejor";
+    cout << "La cadena 2 es: " << cadena2 << endl; // "es la mejor"
 
     int resultado = strcmp(cadena1, cadena2);
 

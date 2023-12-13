@@ -1,0 +1,7 @@
+# ninja log v5
+1	589	7242068924771092	CMakeFiles/strcmp.dir/strcmp.cpp.obj	d1b2d42ca536d2a2
+593	734	7242068926150771	strcmp.exe	a32b4fbd9f06d6cc
+7	911	7242069080891296	CMakeFiles/strcmp.dir/strcmp.cpp.obj	d1b2d42ca536d2a2
+911	1051	7242069082245781	strcmp.exe	a32b4fbd9f06d6cc
+5	575	7242069334266517	CMakeFiles/strcmp.dir/strcmp.cpp.obj	d1b2d42ca536d2a2
+576	783	7242069336581810	strcmp.exe	a32b4fbd9f06d6cc
