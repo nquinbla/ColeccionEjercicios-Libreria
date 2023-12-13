@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1.$ Las$ funciones$ comunes$ del$ lenguaje$ C/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for EXECUTABLE target abs
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for abs
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+build cmake_object_order_depends_target_abs: phony || CMakeFiles/abs.dir
 
-build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1.$ Las$ funciones$ comunes$ del$ lenguaje$ C/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
+build CMakeFiles/abs.dir/abs.cpp.obj: CXX_COMPILER__abs_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1.$ Las$ funciones$ comunes$ del$ lenguaje$ C/abs.cpp || cmake_object_order_depends_target_abs
+  DEP_FILE = CMakeFiles\abs.dir\abs.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\abs.dir
+  OBJECT_FILE_DIR = CMakeFiles\abs.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for EXECUTABLE target abs
 
 
 #############################################
-# Link the executable main.exe
+# Link the executable abs.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj
+build abs.exe: CXX_EXECUTABLE_LINKER__abs_Debug CMakeFiles/abs.dir/abs.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\abs.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.exe.dbg
+  TARGET_FILE = abs.exe
+  TARGET_IMPLIB = libabs.dll.a
+  TARGET_PDB = abs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target rand
+
+
+#############################################
+# Order-only phony target for rand
+
+build cmake_object_order_depends_target_rand: phony || CMakeFiles/rand.dir
+
+build CMakeFiles/rand.dir/rand.cpp.obj: CXX_COMPILER__rand_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1.$ Las$ funciones$ comunes$ del$ lenguaje$ C/rand.cpp || cmake_object_order_depends_target_rand
+  DEP_FILE = CMakeFiles\rand.dir\rand.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rand.dir
+  OBJECT_FILE_DIR = CMakeFiles\rand.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rand
+
+
+#############################################
+# Link the executable rand.exe
+
+build rand.exe: CXX_EXECUTABLE_LINKER__rand_Debug CMakeFiles/rand.dir/rand.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\rand.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = rand.exe
+  TARGET_IMPLIB = librand.dll.a
+  TARGET_PDB = rand.exe.dbg
 
 
 #############################################
@@ -99,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build main: phony main.exe
+build abs: phony abs.exe
+
+build rand: phony rand.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +144,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1. Las funciones comunes del lenguaje C/cmake-build-debug
 
-build all: phony main.exe
+build all: phony abs.exe rand.exe
 
 # =============================================================================
 # Built-in targets

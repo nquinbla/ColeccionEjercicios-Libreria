@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "1__Las_funciones_comunes_del_lenguaje_C",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-bfb1b66f83ffc353b2b0.json",
-					"name" : "main",
+					"id" : "abs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abs-Debug-10a1bdd6f32bf69a5644.json",
+					"name" : "abs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rand::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rand-Debug-3f9ecaef9b8e048c9fbe.json",
+					"name" : "rand",
 					"projectIndex" : 0
 				}
 			]

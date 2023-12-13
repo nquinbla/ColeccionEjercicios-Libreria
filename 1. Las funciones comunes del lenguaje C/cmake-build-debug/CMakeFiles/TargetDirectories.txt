@@ -1,3 +1,4 @@
-C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1. Las funciones comunes del lenguaje C/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1. Las funciones comunes del lenguaje C/cmake-build-debug/CMakeFiles/abs.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1. Las funciones comunes del lenguaje C/cmake-build-debug/CMakeFiles/rand.dir
 C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1. Las funciones comunes del lenguaje C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/1. Las funciones comunes del lenguaje C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
