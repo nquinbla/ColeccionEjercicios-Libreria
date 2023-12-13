@@ -13,7 +13,7 @@ int main() {
         return 1;
     }
 
-    fprintf(archivo, "El ligamento cruzado es el peor de los huesos\n");
+    fprintf(archivo, "El ligamento cruzado es el peor de los huesos");
 
     fclose(archivo);
 
@@ -23,10 +23,12 @@ int main() {
         return 1;
     }
 
-    char texto[100];
-    fscanf(archivo, "%s", texto);
+    char buffer[50];
+    // fscanf(archivo, "%s", buffer); // lee hasta el primer espacio, por lo que no es recomendable debido a la frase que he introducido
 
-    printf("Leido del archivo: %s\n", texto);
+    fgets(buffer, 50, archivo); // este sin embargo, lee hasta el final de la linea
+
+    printf("Leido del archivo: %s\n", buffer);
 
     fclose(archivo);
 
