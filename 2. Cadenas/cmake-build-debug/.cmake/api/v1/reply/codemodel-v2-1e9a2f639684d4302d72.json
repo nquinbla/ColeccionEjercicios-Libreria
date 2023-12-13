@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "2__Cadenas",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "strcmp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-strcmp-Debug-60fc05c060816b12f67d.json",
 					"name" : "strcmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strlen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strlen-Debug-6c26a9359d41c26b89a5.json",
+					"name" : "strlen",
 					"projectIndex" : 0
 				}
 			]

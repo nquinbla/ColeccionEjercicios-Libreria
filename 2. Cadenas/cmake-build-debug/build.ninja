@@ -73,6 +73,39 @@ build strcmp.exe: CXX_EXECUTABLE_LINKER__strcmp_Debug CMakeFiles/strcmp.dir/strc
   TARGET_IMPLIB = libstrcmp.dll.a
   TARGET_PDB = strcmp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target strlen
+
+
+#############################################
+# Order-only phony target for strlen
+
+build cmake_object_order_depends_target_strlen: phony || CMakeFiles/strlen.dir
+
+build CMakeFiles/strlen.dir/strlen.cpp.obj: CXX_COMPILER__strlen_unscanned_Debug C$:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/2.$ Cadenas/strlen.cpp || cmake_object_order_depends_target_strlen
+  DEP_FILE = CMakeFiles\strlen.dir\strlen.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\strlen.dir
+  OBJECT_FILE_DIR = CMakeFiles\strlen.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strlen
+
+
+#############################################
+# Link the executable strlen.exe
+
+build strlen.exe: CXX_EXECUTABLE_LINKER__strlen_Debug CMakeFiles/strlen.dir/strlen.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\strlen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = strlen.exe
+  TARGET_IMPLIB = libstrlen.dll.a
+  TARGET_PDB = strlen.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build strcmp: phony strcmp.exe
 
+build strlen: phony strlen.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build strcmp: phony strcmp.exe
 #############################################
 # Folder: C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/2. Cadenas/cmake-build-debug
 
-build all: phony strcmp.exe
+build all: phony strcmp.exe strlen.exe
 
 # =============================================================================
 # Built-in targets

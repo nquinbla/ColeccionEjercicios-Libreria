@@ -1,7 +1,9 @@
 # ninja log v5
-1	589	7242068924771092	CMakeFiles/strcmp.dir/strcmp.cpp.obj	d1b2d42ca536d2a2
-593	734	7242068926150771	strcmp.exe	a32b4fbd9f06d6cc
-7	911	7242069080891296	CMakeFiles/strcmp.dir/strcmp.cpp.obj	d1b2d42ca536d2a2
-911	1051	7242069082245781	strcmp.exe	a32b4fbd9f06d6cc
 5	575	7242069334266517	CMakeFiles/strcmp.dir/strcmp.cpp.obj	d1b2d42ca536d2a2
 576	783	7242069336581810	strcmp.exe	a32b4fbd9f06d6cc
+1	566	7242070837578070	CMakeFiles/strlen.dir/strlen.cpp.obj	22513aac1a65c714
+567	736	7242070839245895	strlen.exe	dd025a2e0543bb3
+5	614	7242070997560350	CMakeFiles/strlen.dir/strlen.cpp.obj	22513aac1a65c714
+615	797	7242070999331825	strlen.exe	dd025a2e0543bb3
+6	530	7242071109453212	CMakeFiles/strlen.dir/strlen.cpp.obj	22513aac1a65c714
+530	683	7242071110904994	strlen.exe	dd025a2e0543bb3
