@@ -1,0 +1,3 @@
+C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/2. Cadenas/cmake-build-debug/CMakeFiles/strcmp.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/2. Cadenas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-LibreriaEstandarC/2. Cadenas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
