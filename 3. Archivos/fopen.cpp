@@ -1,6 +1,6 @@
 // a. Usa la función fopen() para abrir un archivo de texto. Si el archivo no existe, muestra un mensaje de error.
 
-#include <iostream> // para usar cout
+#include <iostream> // para usar cout.
 #include <stdio.h> // para usar fopen
 
 using namespace std;
